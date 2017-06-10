@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.malchin"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.malchin.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.malchin.amid_mal_bor" >
+        </activity>
+        <activity android:name="com.example.malchin.amid_mal_add" >
+        </activity>
+        <activity android:name="com.example.malchin.backup_restore" >
+        </activity>
+        <activity android:name="com.example.malchin.mal_toollogo" >
+        </activity>
+        <activity android:name="com.example.malchin.maliin_endegdel" >
+        </activity>
+        <activity android:name="com.example.malchin.Endegdel_add" >
+        </activity>
+        <activity android:name="com.example.malchin.tuuhii_ed_borluulalt" >
+        </activity>
+        <activity android:name="com.example.malchin.tuuhii_ed_borluulalt_add" >
+        </activity>
+        <activity android:name="com.example.malchin.tuuhii_ed_huraalt" >
+        </activity>
+        <activity android:name="com.example.malchin.tuuhii_ed_huraalt_add" >
+        </activity>
+        <activity android:name="com.example.malchin.vagtsin" >
+        </activity>
+        <activity android:name="com.example.malchin.vagtsin_add" >
+        </activity>
+        <activity android:name="com.example.malchin.mal_burtgel" >
+        </activity>
+        <activity android:name="com.example.malchin.Toollogo_add" >
+        </activity>
+        <activity android:name="com.example.malchin.malsureg_toollogo" >
+        </activity>
+    </application>
+
+</manifest>

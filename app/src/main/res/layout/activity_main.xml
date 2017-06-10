@@ -1,0 +1,147 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#00BF9A"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="МАЛ БҮРТГЭЛИЙН СИСТЕМ"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/back2" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnmalburtgel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="#40C4FF"
+                android:text="Мал бүртгэл"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+            <Button
+                android:id="@+id/btnmaltoollogo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="#00BF9A"
+                android:text="Мал тооллого"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+
+            <Button
+                android:id="@+id/btnmaliinendegdel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="#40C4FF"
+                android:text="Малын эндэгдэл"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+
+            <Button
+                android:id="@+id/btnvagtsin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="#00BF9A"
+                android:text="Вакцинжуулалт"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+
+            <Button
+                android:id="@+id/btnamid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="#40C4FF"
+                android:text="Амьд мал борлуулалт"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical">
+				<Button
+                    android:id="@+id/btndar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#00BF9A"
+                    android:text="Түүхий эд"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:typeface="monospace" />
+                <Button
+                    android:id="@+id/btnhuraalt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:background="#455A64"
+                    android:text="Түүхий эд хураалт"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="1dp"
+                    android:typeface="monospace" 
+                    android:visibility="gone"/>
+
+                <Button
+                    android:id="@+id/btnbor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:background="#455A64"
+                    android:text="Түүхий эд борлуулалт"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:typeface="monospace"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnbackrestore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="#40C4FF"
+                android:text="backup/restore"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
